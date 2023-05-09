@@ -1,0 +1,12 @@
+h1 {
+    color: blueviolet;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(216, 91, 162);
+    border: 10px groove   rgb(202, 170, 170);
+    text-align: justify;
+}
+li {
+    list-style-type: upper-latin;
+
+}
