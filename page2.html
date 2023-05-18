@@ -4,10 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Bootstrap</title>
 </head>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+  </div>
+</nav>
+
 <body>
-    
+    <h1 class="text-center m-2"> Botones </h1>
+    <hr>
+    <div class="d-grid gap-2 m-3">
+      <button type="button" name="" id="" class="btn btn-primary">Seleccionar</button>
+    </div>
+    <br>
+    <h3 class="m-2">Botones Default</h3>
+    <button type="button" class="btn btn-primary">Button</button>
+    <button type="button" class="btn btn-warning">Button</button>
+    <button type="button" class="btn btn-danger">Button</button>
+    <button type="button" class="btn btn-success">Button</button>
+    <button type="button" class="btn btn-dark">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-light">Button</button>
+    <button type="button" class="btn btn-info">Button</button>
+    <br>
+    <h3 class="m-2">Botones Outline</h3>
+    <button type="button" class="btn btn-outline-primary">Outline</button>
+    <button type="button" class="btn btn-outline-warning">Button</button>
+    <button type="button" class="btn btn-outline-danger">Button</button>
+    <button type="button" class="btn btn-outline-success">Button</button>
+    <button type="button" class="btn btn-outline-dark">Button</button>
+    <button type="button" class="btn btn-outline-secondary">Button</button>
+    <button type="button" class="btn btn-outline-light">Button</button>
+    <button type="button" class="btn btn-outline-info">Button</button>
+    <br>
+    <h3 class="m-2">Boton Size</h3>
+    <button type="button" class="btn btn-success btn-lg">Boton Grande</button>
+    <button type="button" class="btn btn-dark btn-sm">Boton Pequeño</button>
+    <br>
+    <h3 class="m-2">Boton CheckBox</h3>
+    <div class="btn-group" role="group" data-bs-toggle="buttons">
+        <label class="btn btn-danger active">
+            <input type="checkbox" class="me-2" name="" id="" checked autocomplete="off"> Pizza
+        </label>
+        <label class="btn btn-warning">
+            <input type="checkbox" class="me-2" name="" id="" autocomplete="off"> Taquitos
+        </label>
+        <label class="btn btn-danger">
+            <input type="checkbox" class="me-2" name="" id="" autocomplete="off"> Pozole
+        </label>
+    </div>
+    <br>
+    <h3 class="m-2">Boton Radio</h3>
+    <div class="btn-group" data-bs-toggle="buttons">
+        <label class="btn btn-primary active">
+            <input type="radio" class="me-2" name="" id="" autocomplete="off" checked> League Of Legends
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" name="" id="" autocomplete="off"> Fortnite
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" name="" id="" autocomplete="off"> Overwatch
+        </label>
+    </div>
+
+
+
 </body>
+
 </html>
